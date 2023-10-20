@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+}
+.header .navbar {
+  margin: auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  background: -webkit-linear-gradient(#ffffff, rgb(199, 199, 199));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .navbar .start {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.header .navbar ul {
+  display: flex;
+}
+.header .navbar ul li {
+  padding-left: 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.header .GRAYSCALE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+}
+.header .GRAYSCALE .text .p-tag {
+  padding-top: 0.25rem;
+  padding-bottom: 2rem;
+  max-width: 600px;
+  font-size: 25px;
+  background: -webkit-linear-gradient(#eee, #686767);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .GRAYSCALE .text h1 {
+  background: -webkit-linear-gradient(#eee, #686767);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+.header .GRAYSCALE .btn {
+  border-radius: 8px;
+  padding: 20px 30px;
+  background-color: rgb(100, 161, 157);
+  border: none;
+}
+.header .GRAYSCALE .btn a {
+  color: white;
+  letter-spacing: 2px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+#Built-with-Bootstrap-5 .background {
+  max-width: 100%;
+  min-height: 70vh;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+#Built-with-Bootstrap-5 .boostrap-5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50vh;
+}
+#Built-with-Bootstrap-5 .boostrap-5 h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+#Built-with-Bootstrap-5 .boostrap-5 p {
+  padding-top: 1.5rem;
+  color: rgb(199, 199, 199);
+  font-size: 1.1rem;
+  width: 800px;
+}
+#Built-with-Bootstrap-5 .img {
+  text-align: center;
+}
+#Built-with-Bootstrap-5 .img img {
+  max-width: 70%;
+}
+
+#Shoreline {
+  max-width: 100%;
+  min-height: 60vh;
+}
+#Shoreline .all {
+  max-width: 60%;
+}
+#Shoreline .all .img2 img {
+  width: 500px;
+}/*# sourceMappingURL=main.css.map */

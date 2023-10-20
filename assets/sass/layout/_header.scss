@@ -1,0 +1,75 @@
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+    // background-image: url("");
+
+    .navbar {
+        margin: auto;
+        max-width: 90%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        background: -webkit-linear-gradient(#ffffff, rgba(199,199,199,255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        .start {
+            font-size: 1.25rem;
+            font-weight: 800;
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                padding-left: 2rem;
+                font-size: 1rem;
+                font-weight: 800;
+            }
+        }
+    }
+
+    .GRAYSCALE {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 80vh;
+
+        .text {
+            .p-tag {
+                padding-top: 0.25rem;
+                padding-bottom: 2rem;
+                max-width: 600px;
+                font-size: 25px;
+                background: -webkit-linear-gradient(#eee, #686767);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+            }
+
+            h1 {
+                background: -webkit-linear-gradient(#eee, #686767);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 100px;
+                font-weight: 500;
+                letter-spacing: 10px;
+            }
+        }
+
+        .btn{
+            border-radius: 8px;
+            padding: 20px 30px;
+            background-color: rgba(100,161,157,255);
+            border: none;
+            a{
+                color: white;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

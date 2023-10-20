@@ -1,0 +1,47 @@
+#Built-with-Bootstrap-5{
+    .background{
+        max-width: 100%;
+        min-height: 70vh;
+        background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    }
+    .boostrap-5{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 50vh;
+        h2{
+            color: white;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        p{
+            padding-top: 1.5rem;
+            color: rgba(199,199,199,255);
+            font-size: 1.1rem;
+            width: 800px;
+        }
+       
+    }
+
+    .img{
+        text-align: center;
+        img{
+            max-width: 70%;
+        }
+    }
+}
+#Shoreline{
+    max-width: 100%;
+    min-height: 60vh;
+    .all{
+        max-width: 60%;
+        .img2{
+            img{
+                width: 500px;
+            }
+        }
+    }
+
+}
